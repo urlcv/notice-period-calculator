@@ -1,0 +1,15 @@
+{
+    "name": "urlcv/notice-period-calculator",
+    "description": "Calculate your last working day from notice start date and period (days, weeks, or months). Frontend-only tool at urlcv.com.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["notice-period", "resignation", "last-day", "employment", "recruitment"],
+    "homepage": "https://urlcv.com/tools/notice-period-calculator",
+    "authors": [{"name": "URLCV", "homepage": "https://urlcv.com"}],
+    "require": {"php": "^8.2"},
+    "suggest": {"illuminate/support": "Required for Laravel integration (Blade views)"},
+    "autoload": {"psr-4": {"URLCV\\NoticePeriodCalculator\\": "src/"}},
+    "extra": {"laravel": {"providers": ["URLCV\\NoticePeriodCalculator\\Laravel\\NoticePeriodCalculatorServiceProvider"]}},
+    "config": {"optimize-autoloader": true, "sort-packages": true},
+    "minimum-stability": "stable"
+}
