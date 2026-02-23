@@ -42,7 +42,8 @@
                     <select
                         x-model="unit"
                         @change="compute()"
-                        class="border-0 border-l border-gray-300 bg-gray-50 px-3 py-2 text-sm text-gray-700 focus:ring-0 min-w-[100px]"
+                        class="border-0 border-l border-gray-300 bg-gray-50 pl-3 pr-10 py-2 text-sm text-gray-700 focus:ring-0 min-w-[7.5rem] appearance-none bg-no-repeat bg-[length:1rem_1rem] bg-[right_0.75rem_center]"
+                        style="background-image: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236b7280'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E&quot;);"
                     >
                         <option value="days">Days</option>
                         <option value="weeks">Weeks</option>
